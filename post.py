@@ -23,4 +23,4 @@ def post_all(spotteds):
             make_post('assets/sample-out.jpg', "Spotted #" + str(spotted['id']) + "\n" + spotted['text'], bot)
 
 if __name__ == '__main__':
-    post_all([{'id':23423, 'text': 'Este spotted é para jose augusto aquele gostoso de bh'},])
+    post_all([{'id':23423, 'text': 'Teste'},])
